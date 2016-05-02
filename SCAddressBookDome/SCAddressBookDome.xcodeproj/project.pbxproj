@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91DFA8EF1CD782640036B939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DFA8EE1CD782640036B939 /* AppDelegate.swift */; };
+		91DFA8F61CD782640036B939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DFA8F41CD782640036B939 /* Main.storyboard */; };
+		91DFA8F81CD782640036B939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DFA8F71CD782640036B939 /* Assets.xcassets */; };
+		91DFA8FB1CD782640036B939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DFA8F91CD782640036B939 /* LaunchScreen.storyboard */; };
+		91DFA90F1CD784600036B939 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DFA90E1CD784600036B939 /* MasterViewController.swift */; };
+		91DFA9171CD790970036B939 /* SCAddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DFA9161CD790970036B939 /* SCAddressBook.framework */; };
+		91DFA9181CD790970036B939 /* SCAddressBook.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91DFA9161CD790970036B939 /* SCAddressBook.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91DFA91A1CD792AE0036B939 /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DFA9191CD792AE0036B939 /* ContactTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91DFA9151CD7902B0036B939 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				91DFA9181CD790970036B939 /* SCAddressBook.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91DFA8EB1CD782640036B939 /* SCAddressBookDome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCAddressBookDome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DFA8EE1CD782640036B939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91DFA8F51CD782640036B939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91DFA8F71CD782640036B939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91DFA8FA1CD782640036B939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91DFA8FC1CD782640036B939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91DFA90E1CD784600036B939 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		91DFA9161CD790970036B939 /* SCAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = SCAddressBook.framework; path = "/Users/xuemincai/Library/Developer/Xcode/DerivedData/SCAddressBook-fjppgjzgrgstklgfcvvkbylclinq/Build/Products/Debug-iphoneos/SCAddressBook.framework"; sourceTree = "<absolute>"; };
+		91DFA9191CD792AE0036B939 /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91DFA8E81CD782640036B939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DFA9171CD790970036B939 /* SCAddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91DFA8E21CD782640036B939 = {
+			isa = PBXGroup;
+			children = (
+				91DFA9161CD790970036B939 /* SCAddressBook.framework */,
+				91DFA8ED1CD782640036B939 /* SCAddressBookDome */,
+				91DFA8EC1CD782640036B939 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91DFA8EC1CD782640036B939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91DFA8EB1CD782640036B939 /* SCAddressBookDome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91DFA8ED1CD782640036B939 /* SCAddressBookDome */ = {
+			isa = PBXGroup;
+			children = (
+				91DFA8EE1CD782640036B939 /* AppDelegate.swift */,
+				91DFA90E1CD784600036B939 /* MasterViewController.swift */,
+				91DFA9191CD792AE0036B939 /* ContactTableViewController.swift */,
+				91DFA8F41CD782640036B939 /* Main.storyboard */,
+				91DFA8F71CD782640036B939 /* Assets.xcassets */,
+				91DFA8F91CD782640036B939 /* LaunchScreen.storyboard */,
+				91DFA8FC1CD782640036B939 /* Info.plist */,
+			);
+			path = SCAddressBookDome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91DFA8EA1CD782640036B939 /* SCAddressBookDome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DFA8FF1CD782640036B939 /* Build configuration list for PBXNativeTarget "SCAddressBookDome" */;
+			buildPhases = (
+				91DFA8E71CD782640036B939 /* Sources */,
+				91DFA8E81CD782640036B939 /* Frameworks */,
+				91DFA8E91CD782640036B939 /* Resources */,
+				91DFA9151CD7902B0036B939 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCAddressBookDome;
+			productName = SCAddressBookDome;
+			productReference = 91DFA8EB1CD782640036B939 /* SCAddressBookDome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91DFA8E31CD782640036B939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xuemincai;
+				TargetAttributes = {
+					91DFA8EA1CD782640036B939 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 91DFA8E61CD782640036B939 /* Build configuration list for PBXProject "SCAddressBookDome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91DFA8E21CD782640036B939;
+			productRefGroup = 91DFA8EC1CD782640036B939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91DFA8EA1CD782640036B939 /* SCAddressBookDome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91DFA8E91CD782640036B939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DFA8FB1CD782640036B939 /* LaunchScreen.storyboard in Resources */,
+				91DFA8F81CD782640036B939 /* Assets.xcassets in Resources */,
+				91DFA8F61CD782640036B939 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91DFA8E71CD782640036B939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DFA90F1CD784600036B939 /* MasterViewController.swift in Sources */,
+				91DFA8EF1CD782640036B939 /* AppDelegate.swift in Sources */,
+				91DFA91A1CD792AE0036B939 /* ContactTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91DFA8F41CD782640036B939 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91DFA8F51CD782640036B939 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91DFA8F91CD782640036B939 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91DFA8FA1CD782640036B939 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91DFA8FD1CD782640036B939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91DFA8FE1CD782640036B939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91DFA9001CD782640036B939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCAddressBookDome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuemincai.SCAddressBookDome1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91DFA9011CD782640036B939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCAddressBookDome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuemincai.SCAddressBookDome1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91DFA8E61CD782640036B939 /* Build configuration list for PBXProject "SCAddressBookDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DFA8FD1CD782640036B939 /* Debug */,
+				91DFA8FE1CD782640036B939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91DFA8FF1CD782640036B939 /* Build configuration list for PBXNativeTarget "SCAddressBookDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DFA9001CD782640036B939 /* Debug */,
+				91DFA9011CD782640036B939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91DFA8E31CD782640036B939 /* Project object */;
+}
